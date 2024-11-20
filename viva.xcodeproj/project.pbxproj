@@ -14,6 +14,8 @@
 		AECF8DCE2CECE05D00DC35DB /* vivaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8DCD2CECE05D00DC35DB /* vivaTests.swift */; };
 		AECF8DD82CECE05D00DC35DB /* vivaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8DD72CECE05D00DC35DB /* vivaUITests.swift */; };
 		AECF8DDA2CECE05D00DC35DB /* vivaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8DD92CECE05D00DC35DB /* vivaUITestsLaunchTests.swift */; };
+		AECF8DE72CEE386200DC35DB /* Onboarding .swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8DE62CEE386200DC35DB /* Onboarding .swift */; };
+		AECF8DEB2CEE3CFD00DC35DB /* Search .swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8DEA2CEE3CFD00DC35DB /* Search .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		AECF8DD32CECE05D00DC35DB /* vivaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vivaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AECF8DD72CECE05D00DC35DB /* vivaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vivaUITests.swift; sourceTree = "<group>"; };
 		AECF8DD92CECE05D00DC35DB /* vivaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vivaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AECF8DE62CEE386200DC35DB /* Onboarding .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding .swift"; sourceTree = "<group>"; };
+		AECF8DEA2CEE3CFD00DC35DB /* Search .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				AECF8DBB2CECE05B00DC35DB /* vivaApp.swift */,
 				AECF8DBD2CECE05B00DC35DB /* ContentView.swift */,
+				AECF8DE62CEE386200DC35DB /* Onboarding .swift */,
+				AECF8DEA2CEE3CFD00DC35DB /* Search .swift */,
 				AECF8DBF2CECE05C00DC35DB /* Assets.xcassets */,
 				AECF8DC12CECE05C00DC35DB /* viva.entitlements */,
 				AECF8DC22CECE05C00DC35DB /* Preview Content */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AECF8DE72CEE386200DC35DB /* Onboarding .swift in Sources */,
 				AECF8DBE2CECE05B00DC35DB /* ContentView.swift in Sources */,
+				AECF8DEB2CEE3CFD00DC35DB /* Search .swift in Sources */,
 				AECF8DBC2CECE05B00DC35DB /* vivaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

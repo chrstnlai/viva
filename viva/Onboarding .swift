@@ -1,25 +1,20 @@
 //
-//  ContentView.swift
+//  Onboarding .swift
 //  viva
 //
-//  Created by Christine Lai on 11/19/24.
+//  Created by Christine Lai on 11/20/24.
 //
 
-//
-//  ContentView.swift
-//  viva
-//
-//  Created by Christine Lai on 11/19/24.
-//
+import Foundation
 import SwiftUI
 
-struct ContentView: View {
+struct Onboarding: View {
     var body: some View {
         NavigationView {
             ZStack {
-                NavigationLink(destination: Onboarding()
+                NavigationLink(destination:Search()
                                 .transition(.move(edge: .bottom))) {
-                    Image("Launch")
+                    Image("Onboarding")
                         .resizable()
                         .scaledToFill()
                         .ignoresSafeArea()
@@ -28,9 +23,9 @@ struct ContentView: View {
             .navigationBarHidden(true)
         }
         .animation(.easeInOut, value: true)
+        .navigationBarBackButtonHidden(true)
     }
 }
-
 #Preview {
     ContentView()
 }
