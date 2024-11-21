@@ -16,6 +16,7 @@
 		AECF8DDA2CECE05D00DC35DB /* vivaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8DD92CECE05D00DC35DB /* vivaUITestsLaunchTests.swift */; };
 		AECF8DE72CEE386200DC35DB /* Onboarding .swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8DE62CEE386200DC35DB /* Onboarding .swift */; };
 		AECF8DEB2CEE3CFD00DC35DB /* Search .swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8DEA2CEE3CFD00DC35DB /* Search .swift */; };
+		AECF8DED2CEEC3AD00DC35DB /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = AECF8DEC2CEEC3AD00DC35DB /* Camera.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AECF8DD92CECE05D00DC35DB /* vivaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vivaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		AECF8DE62CEE386200DC35DB /* Onboarding .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Onboarding .swift"; sourceTree = "<group>"; };
 		AECF8DEA2CEE3CFD00DC35DB /* Search .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search .swift"; sourceTree = "<group>"; };
+		AECF8DEC2CEEC3AD00DC35DB /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				AECF8DBD2CECE05B00DC35DB /* ContentView.swift */,
 				AECF8DE62CEE386200DC35DB /* Onboarding .swift */,
 				AECF8DEA2CEE3CFD00DC35DB /* Search .swift */,
+				AECF8DEC2CEEC3AD00DC35DB /* Camera.swift */,
 				AECF8DBF2CECE05C00DC35DB /* Assets.xcassets */,
 				AECF8DC12CECE05C00DC35DB /* viva.entitlements */,
 				AECF8DC22CECE05C00DC35DB /* Preview Content */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AECF8DE72CEE386200DC35DB /* Onboarding .swift in Sources */,
+				AECF8DED2CEEC3AD00DC35DB /* Camera.swift in Sources */,
 				AECF8DBE2CECE05B00DC35DB /* ContentView.swift in Sources */,
 				AECF8DEB2CEE3CFD00DC35DB /* Search .swift in Sources */,
 				AECF8DBC2CECE05B00DC35DB /* vivaApp.swift in Sources */,

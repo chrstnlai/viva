@@ -33,13 +33,21 @@ struct Search: View {
                     
                     // Filtered list based on search text
                     List(filteredLocalPicks, id: \.self) { pick in
-                        Button(action: {
-                            print("\(pick) selected")
-                            // Handle the action when a local pick is selected
-                        }) {
-                            Text(pick)
-                                .padding()
-                                .cornerRadius(8)
+                        if pick == "Garden Cafe" {
+                            NavigationLink(destination: Camera()) {
+                                Text(pick)
+                                    .padding()
+                                    .cornerRadius(8)
+                            }
+                        } else {
+                            Button(action: {
+                                print("\(pick) selected")
+                                // Handle other actions here
+                            }) {
+                                Text(pick)
+                                    .padding()
+                                    .cornerRadius(8)
+                            }
                         }
                     }
                 }
@@ -47,6 +55,7 @@ struct Search: View {
                 Spacer()
             }
             .navigationBarTitle("Where are you eating?", displayMode: .inline)
+            .navigationBarBackButtonHidden(true)
         }
     }
     
@@ -59,6 +68,9 @@ struct Search: View {
         }
     }
 }
+
+// A placeholder for your Camera view
+
 
 struct SearchView_Previews: PreviewProvider {
     static var previews: some View {
